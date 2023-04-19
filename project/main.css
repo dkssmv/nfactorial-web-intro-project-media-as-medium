@@ -1,0 +1,185 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    background-color: #f1f1f1;
+  }
+  
+  /* medium alike */
+  .title {
+    padding: 24px 160px;
+    margin: 0;
+    font-family: "Kanit";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  
+  /* hello world */
+  .hello_title {
+    padding: 24px 160px; 
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120px;
+  }
+  
+  section {
+    padding: 0px 160px;
+  }
+  
+  #articles {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px 0px 36px;
+      gap: 40px;
+      width: 1120px;
+      background: #f1f1f1;
+    }
+  
+  /* with img */
+  .article_box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 45px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2); 
+  }
+  
+  /* exld img */
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+  }
+  
+  .profile_pic{
+    width: 24px;
+    height: 24px;
+  }
+  
+  span {
+    opacity: 0.5;
+  }
+  .header {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+    }
+  
+  .date{
+    opacity: 0.5;
+  }
+  .main_title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    margin: 0;
+  }
+  
+  .main_body {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  
+  .content_footer {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      padding: 0px 0px 30px 0px;
+      gap: 325px;
+    }
+    
+  .footer_text {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 0px;
+      gap: 8px;
+      width: 330px;
+      height: 30px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+    }  
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 16px;
+    background: linear-gradient(
+        0deg,
+        rgba(8, 30, 52, 0.12),
+        rgba(8, 30, 52, 0.12)
+      ),
+      #fffbfe;
+    border: none;
+    width: 107px;
+    height: 30px;
+    border-radius: 100px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+  .readingTime {
+    opacity: 0.5;
+  }
+  
+  .article_img {
+      /* display: flex; */
+      gap: 100px;
+      width: 265px;
+      height: 265px;
+    }
+  
+  /* page footer - credits */
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 778px 160px 32px;
+    gap: 32px;
+  }
+  
+  .credits {
+    padding: 10px 12px;
+    margin: 0;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #081e34;
+    opacity: 0.5;
+  }
+  
+  .text_md {
+    margin: 0;
+    padding: 10px 12px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
